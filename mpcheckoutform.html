@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marketplace checkoutform| Afif Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>AFIF ACADEMY</h1>
+        </div>
+        <div id="nav">
+            <ul>
+
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <h1>Checkout form</h1>
+            <form>
+                <div>
+                    <label>First Name</label><br>
+                    <input class="text_box" type="text" name="firstname">
+                </div>
+                <div>
+                    <label>Last Name</label><br />
+                    <input class="text_box" type="text" name="lastname">
+
+                </div>
+                <div>
+                    <label>Email</label><br />
+                    <input class="text_box" type="email" name="email">
+                </div> 
+                <div>
+                    <label>Phone</label><br />
+                    <input class="text_box" type="text" name="phone">
+                </div>
+                <div>
+                    <label>Address</label><br />
+                    <input class="text_box"type="text" name="address">
+                </div>
+                <div>
+                    <label>Postcode</label><br />
+                    <input class="text_box" type="text" name="postcode">
+                </div>
+                <div>
+                    <label>City</label><br />
+                    <input class="text_box" type="text" name="city">
+                </div>
+                <div>
+                    <p><h2>Choose your shipping method</h2></p>
+                    <select name="shipping"
+                            id="shipping">
+                        <option value="Free super saver shipping">Free super saver shipping</option>
+                        <option value="Three days shipping">Three days shipping</option>
+                        <option value="Seven days shipping">Seven days shipping</option>
+                        </select>
+                </div>
+                <div>
+
+                    <select>
+                        <p style="font-size:150%;">Choose your payment method</p style="font-size:150%;>
+                        <label>Paypal<input type="radio" name="payment" value="paypal"</label>
+                        <label>Bank card<input type="radio" name="payment" value="bank card"</label>
+                        <label>Cash<input type="radio" name="payment" value="cash"</label>
+                        <label>Bitcoin<input type="radio" name="payment" value="bitcoin"</label>
+                        </select>
+                </div>
+                <div>
+                    <label>Comments</label><br />
+                    <textarea name="comments"></textarea>
+
+                </div>
+                <div>
+                    <label><input type="checkbox" name="email updates" checked="checked">Sign me up for email updates</label>
+
+                </div>
+                <div>
+                    <label><input type="checkbox" name="save payment" checked="checked">securely save my payment details</label>
+
+                </div>
+                <button type="submit"><center>Submit</center></button>
+
+            </form>
+
+        </div>
+
+        <div class="clr"></div>
+        <div id="footer">
+            <p>Copyright &copy; 2022</p>
+        </div>
+    </div>
+</body>
+</html>
